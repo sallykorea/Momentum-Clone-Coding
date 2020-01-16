@@ -4,7 +4,7 @@
     const form = document.querySelector("#form")
     const something = form.querySelector("#hello") -> looking for #hello inside of #form
 */
-const toDoForm=document.querySelector(".js-toDoList"),
+const toDoForm=document.querySelector(".js-toDoForm"),
     toDoInput=toDoForm.querySelector("input"),
     toDoList=document.querySelector(".js-toDoList");
 
