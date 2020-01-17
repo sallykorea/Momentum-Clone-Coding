@@ -8,6 +8,7 @@ const SHOWING_CN="showing";
 function handleSubmit(event){
     event.preventDefalut();
     const currentValue=input.value;
+    paintGreeting(currentValue);
 }
 
 function askForName(){
@@ -24,7 +25,7 @@ function paintGreeting(text){
 function loadName(){
     const currentUser=localStorage.getItem(USER_LS);
     if(currentUser===null){
-        
+        askForName();
     }else{
         paintGreeting(currentUser);
     }   
