@@ -2,6 +2,7 @@
 
 body{
     background-color: #b2bec3;
+    color: #34495e;
 }
 
 .btn{
@@ -9,12 +10,12 @@ body{
 }
 
 h1{
-    color: red;
+    color: white;
     transition: coloer 0.5s ease-in-out;
 }
 
 .clicked{
-    color: royalblue;
+    color: #7f8c8d;
 }
 
 .form, .greetings{
@@ -44,3 +45,6 @@ h1{
     animation: fadeIn 0.5s linear;
 }
 
+.js-toDoList, .js-weather{
+    color: white;
+}
